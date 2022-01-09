@@ -1,6 +1,6 @@
 # E-commerce
 
-# OVERVIEWa
+# OVERVIEW
 Using Python and Flask this is a website I am creating for my friend to use for his clothing brand,
 it will allow him to sell clothes and use CRUD operations to update his inventory through a secure end point.
 
