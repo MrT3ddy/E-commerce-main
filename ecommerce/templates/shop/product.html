@@ -1,0 +1,49 @@
+
+{% block content %}
+
+{% for x in item %}
+
+  <article class="">
+    <header>
+      <div>
+
+        
+        <div class="">
+            {{ x['title']}} <br>
+            price {{ x['price'] }} <br>
+            size {{ x['size'] }} <br>
+            color {{ x['color']}} <br>
+            quantity {{ x['quantity'] }}<br>
+            DETAILS: {{ x['detail'] }}<br>
+      </div>
+      
+
+      <form method="post">
+
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+          {% for x in data %}
+            #sql count
+            <option value="{{ x[] }}">{{ x['size'] }}</option>
+          {% endfor %}
+        </select>
+       
+        <label for="quantity">Quantity:</label>
+        <select id="quantity" name="quantity">
+          {% for x in data %}
+            <option value="{{ x['number']}}">{{ o.name }}</option>
+          {% endfor %}
+        </select>
+       
+       
+        <input type="submit" name="">
+      </form>
+      
+      
+    
+    </header>
+  </article>
+   <a href="http://127.0.0.1:5000/cart">Cart</a>
+{% endfor %}
+{% endblock %}
+

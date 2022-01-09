@@ -1,0 +1,29 @@
+
+
+
+
+{% block content %}
+    
+    {% for x in item %}
+
+      <article class="">
+        <header>
+          <div>
+
+          
+            <div class=""> 
+              <a href="http://127.0.0.1:5000/{{ x['id']}}"> {{ x['title']}}</a>
+              price {{ x['price'] }} 
+              size {{ x['size'] }} 
+              color {{ x['color']}} 
+              Quantity {{ x['quantity'] }} </div>
+          </div>
+        </header>
+        <p class="">DETAILS: {{ x['detail'] }}</p>
+      </article>
+        {% if not loop.last %}
+        <hr>
+        {% endif %}
+    {% endfor %}
+    <a href="http://127.0.0.1:5000/cart">Cart</a>
+{% endblock %}
