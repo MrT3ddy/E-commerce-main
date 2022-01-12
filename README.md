@@ -28,30 +28,22 @@ Planning to use:
 # After downloading cloan
 https://flask.palletsprojects.com/en/2.0.x/installation/#optional-dependencies
 
-1.)Add necessary folders
 
-In the e-commerce folder run in terminal/cmd (not inside the ecommerce)
+0.) go to the top directory of 'wbp copy' : aka cd 'wbp copy'
 
-$ mkdir myproject
-
-$ cd myproject
-
-$ python3 -m venv venv
-
-
-2.) Activate environment
+1.) Activate environment
 
 . venv/bin/activate
 
 
-3.) Install Flask
+2.) Install Flask
 
 $ pip install Flask
 
 (update flask)
 
  
-4.) Activate project folder (ecommerce)(not e-commerce)
+3.) Activate project folder (ecommerce)(not e-commerce)
 
 $ export FLASK_APP=ecommerce
 
