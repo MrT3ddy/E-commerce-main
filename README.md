@@ -14,6 +14,7 @@ What I have so far
 - Listing of every product from the database for home page 
 - Product page that dynamically produces data based on id of product
 - Crud operation for Admin side (create, update, delete products and all their info)
+- Shopping Cart that uses cookies, no need to be logged in as a user
 
 
 Planning to use:
