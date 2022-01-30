@@ -29,21 +29,16 @@ Planning to use:
 https://flask.palletsprojects.com/en/2.0.x/installation/#optional-dependencies
 
 
-0.) go to the top directory of 'wbp copy' : aka cd 'wbp copy'
+0.) In CLI for your operating system go to the top directory of 'wbp copy' : aka cd 'wbp copy'
 
 1.) Activate environment
 
 . venv/bin/activate
 
 
-2.) Install Flask
-
-$ pip install Flask
-
-(update flask)
 
  
-3.) Activate project folder (ecommerce)(not e-commerce)
+2.) Activate project folder (ecommerce)(not e-commerce)
 
 $ export FLASK_APP=ecommerce
 
@@ -52,6 +47,8 @@ $ export FLASK_ENV=development
 $ flask init-db
 
 $ flask run
+
+3. ) Access the site with the provided IP address in the terminal
 
 
 
